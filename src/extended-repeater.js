@@ -21,7 +21,7 @@ const { NotImplementedError } = require('../extensions/index.js');
   if (typeof str !== 'string') str = String(str);
   if (typeof addition !== 'string') addition = String(addition);
   
-  let addArr = [];
+  let addArr = [];//массив
   while (addArr.length < additionRepeatTimes) {
     addArr.push(addition);
   }
